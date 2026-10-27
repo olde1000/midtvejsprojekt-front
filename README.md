@@ -6,16 +6,15 @@ Backend: https://github.com/olde1000/midtvejsprojekt-back
 
 ## Who does what
 
-| Page | Folder | Branch | Owner | Must have |
-|---|---|---|---|---|
-| Pokémon | `pokemon/` | `pokemon-page` | William | List all Pokémon with names and stats; filter by at least 3 criteria (filtering done by the API) |
-| Trainers | `trainers/` | `trainers-page` | Sebastian | List all trainers; show the Pokémon of a selected trainer; create a trainer (POST); add a Pokémon to a trainer (POST) |
-| Dashboard | `dashboard/` | `dashboard` | Olivier | At least 3 statistics from the API, at least 2 of them as charts (Chart.js) |
-| Battle | `battle/` | `battle-page` | Thomas | Pick two Pokémon and simulate a battle based on their stats (optional extra) |
+| Page | Folder | Owner | Must have |
+|---|---|---|---|
+| Pokémon | `pokemon/` | William | List all Pokémon with names and stats; filter by at least 3 criteria (filtering done by the API) |
+| Trainers | `trainers/` | Sebastian | List all trainers; show the Pokémon of a selected trainer; create a trainer (POST); add a Pokémon to a trainer (POST) |
+| Dashboard | `dashboard/` | Olivier | At least 3 statistics from the API, at least 2 of them as charts (Chart.js) |
+| Battle | `battle/` | Thomas | Pick two Pokémon and simulate a battle based on their stats (optional extra) |
 
 ## How we work
 
-- Work only on your own branch and only inside your own folder.
-- Commit and push often.
-- When your page is done, open a pull request into `main` on GitHub.
+- Everyone works on `main`. Only change files inside your own folder.
+- Commit → pull → push. Always commit before you pull.
 - The API runs on `http://localhost:3000` (`API_URL` at the top of each JS file).
