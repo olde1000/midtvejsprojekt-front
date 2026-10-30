@@ -15,27 +15,41 @@
     </nav>
 
     <main>
-        <button class="attackButton">Attack</button>
-        <h1>Battle</h1>
+        <img class="titleImg" src="../images/pokemonTitel.png">    
+    <div class="pokemonTitlesContainer">
+        <p id="pokemon1Title"></p>
+        <p id="pokemon2Title"></p>
+    </div>
+    <div class="imgContainer">
+        <div id="imgContainer1">
+        <div id="pokemon1Info"></div>
+        <img class="pokemonImg" id="pokemonImage1" alt="pokemon" hidden>
+        </div>
+        <div id="imgContainer2">
+        <img class="pokemonImg" id="pokemonImage2" alt="pokemon" hidden>
+        <div id="pokemon2Info"></div>
+        </div>
+    </div>  
+    <div id="startFightText"></div> 
+    <div class="pokemonContainer">  
+    <div class="pokemon1ButtonContainer">
+        <button id="attackButtonPokemon1">Attack</button>
+        <button id="specialDefence1Button">Special Defense</button>
+        <button id="specialAttack1Button">Special Attack</button>
+    </div>
+    <div class="pokemon2ButtonContainer">
+        <button id="attackButtonPokemon2">Attack!</button>
+        <button id="specialDefence2Button">Special Defense</button>
+        <button id="specialAttack2Button">Special Attack</button>
+    </div>
+    </div>
+        <div id="battleStatusText"></div>
+    <div class="functionButtonContainer">
+        <button id="findRandomPokemonButton">Start New Fight!</button>
+        <button id="resetButton" hidden>Reset</button>
+    </div>
     </main>
-
     <script src="battle.js">
-
-        let health = 100
-        let attack = 20
-        let attackMonster;
-
-
-    attackButton.addEventListener('click', () => {
-        const attackFromHealth = () => {
-        if (attackMonster) {
-        (health - attack) 
-        }
-    }
-});
-
-        console.log(attackMonster);
-
     </script>
 </body>
 </html>

@@ -1,6 +1,8 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
+    background-color: #eeea15;
+    font-weight: bold;
 }
 
 nav {
@@ -19,3 +21,167 @@ nav a {
 main {
     padding: 20px;
 }
+
+
+.titleImg {
+width: 420px;
+height: 220px;
+display: block;
+margin: 0 auto;
+}
+
+
+#battleStatusText {
+margin-left: 20%;
+margin-top: 2%;
+display: none;
+}
+
+.pokemonTitlesContainer {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 42%;
+}
+
+.pokemonTitlesContainer p {
+color: rgb(58, 58, 223);
+font-size: 30px;
+}
+
+#pokemon2Title {
+margin-right: 2%;
+}
+
+#pokemon1Title {
+margin-left: 3%;
+}
+
+button:hover {
+cursor: pointer;
+}
+
+button:disabled {
+background-color: grey;
+opacity: 0.3;
+}
+
+.imgContainer {
+display: flex;
+flex-direction: row;
+gap: 19%;
+justify-content: center;
+align-items: center;
+}
+
+.pokemonImg {
+width: 400px;
+height: 300px;   
+object-fit: contain;
+}
+
+
+#pokemonImage2 {
+margin-left: 50px;
+}
+
+.pokemonContainer {
+display: flex;
+gap: 13%;
+margin-top: 40px;
+height: 40px;
+justify-content: center;
+align-items: center;
+}
+
+.pokemon1ButtonContainer {
+display: flex;
+gap: 6%;
+}
+
+.pokemon2ButtonContainer {
+display: flex;
+gap: 6%;
+}
+
+#attackButtonPokemon1,
+#specialDefence1Button,
+#specialAttack1Button,
+#attackButtonPokemon2,
+#specialDefence2Button,
+#specialAttack2Button {
+width: 180px;
+height: 50px;
+border: 2px solid rgb(58, 58, 223);
+border-radius: 20px;
+background-color: #f3df2a;
+color: rgb(58, 58, 223);
+font-weight: bold;
+}
+
+#startFightText {
+display: flex;
+flex-direction: row;
+justify-content: center;
+color:rgb(58, 58, 223);
+font-size: 22px;
+min-height: 30px;
+}
+
+
+.functionButtonContainer {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 40px;
+width: 60%;
+margin-left: 20%;
+margin-top: 4%;
+}
+
+#findRandomPokemonButton {
+width: 280px;
+height: 80px;
+border: 5px solid #ebd404;
+border-radius: 20px;
+background-color: rgb(58, 58, 223);
+color: #f3df2a;
+font-weight: bold;
+font-size: 18px;
+}
+
+#pokemon1Info,
+#pokemon2Info {
+white-space: pre-line;
+border: 2px solid blue;
+height: 120px;
+width: 200px;
+padding-left: 7px;
+padding-top: 10px;
+text-align: center;
+border-radius: 20px;
+background-color: #f3df2a;
+}
+
+#imgContainer1 {
+display: flex;    
+justify-content: center;
+align-items: left;
+color: blue;
+font-size: 18px;
+}
+
+#imgContainer2 {
+display: flex;    
+justify-content: center;
+align-items: right;
+color: blue;
+font-size: 18px;
+}
+
+#resetButton {
+display: hide;
+}
+
+
